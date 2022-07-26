@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+  </head>
+  <body>
+    <div class="container">
+      <p>Calcular promedio de notas del alumno</p>
+      <div>
+        <label for="nota1"> Nota 1</label>
+        <input type="text" class="form-control" name="nota1" id="nota1" />
+      </div>
+      <div class="form-group">
+        <label for="nota2"> Nota 2</label>
+        <input type="text" class="form-control" name="nota2" id="nota2" />
+      </div>
+      <div>
+        <label for="nota3"> Nota 3</label>
+        <input type="text" class="form-control" name="nota3" id="nota3" />
+      </div>
+      <span id="promedio">0</span>
+      <br /><br />
+      <input type="button" value="Calcular" onclick="calc_promedio('nota1','nota2','nota3')"/>
+    </div>
+
+    <script src="js/javascript.js"></script>
+  </body>
+</html>
